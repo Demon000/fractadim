@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fractadim</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/fonts/mdi/css/materialdesignicons.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/common.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <script type="text/javascript" src="js/createElement.js"></script>
+        <script type="text/javascript" src="js/utility.js"></script>
+        <script type="text/javascript" src="js/BoxCounting.js"></script>
+    </head>
+    <body>
+        <div id="navbar">
+            FractaDim
+        </div>
+        <div id="image-preview-wrapper">
+            <img id="image-preview">
+        </div>
+        <div class="content">
+    		<div class="title">Results</div>
+            <div class="labeled-input">
+    			<label for="result">Dimension</label>
+    			<input id="result" type="text" disabed="true">            
+            </div>
+            <div class="labeled-input">
+    		    <label for="type">Type</label>
+    			<input id="type" type="text">
+            </div>
+            <button id="save">Save</button>
+
+    		<div class="title">Settings</div>
+            <div class="labeled-input">
+    			<label for="threshold">Threshold</label>
+    			<input id="threshold" type="number" min="100" max="255" value="220">            
+            </div>
+        </div>
+
+        <i id="load-image" class="fab mdi mdi-file-image"></i>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
