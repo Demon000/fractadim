@@ -102,6 +102,7 @@ button:hover {
 }
 #image-preview {
     display: block;
+    width: 100%;
 }
 #load-image {
     position: fixed;
