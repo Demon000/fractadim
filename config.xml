@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+  id          = "com.demon000.fractadim"
+  versionCode = "10"
+  version     = "1.0.0" >
+
+  <!-- versionCode is optional and Android only -->
+
+  <name>FractaDim</name>
+
+  <description>
+    Stuff.
+  </description>
+
+  <!-- We'll include the Barcode plugin as an example -->
+  <plugin name="cordova-plugin-crosswalk-webview" />
+</widget>
