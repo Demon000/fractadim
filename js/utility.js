@@ -159,6 +159,13 @@
 			});
 			return ahw;
 		},
+		arrayAverage: function(a) {
+			var sum = a.reduce(function(a, b) {
+			    return a + b;
+			});
+			var avg = sum / a.length;
+			return avg;
+		},
 		arrayClearFill: function(a) {
 			var c = a.map(function(l) {
 			    return l.slice();
